@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col s12 m9 l10">
+      <div id="right" class="section scrollspy">
+        <h2 class="header"><img src="images/view.jpg" width="5%">&nbsp;&nbsp;List of Tasks</h2>
+        <!-- mod start 0.0.4 -->
+        <div class="row">
+            <div class="input-field col s6">     
+              <input id="search_bar" type="text" class="validate">
+              <label for="search_bar"><i class="material-icon-legend left">search</i>Search Task Name</label>
+            </div>
+        </div>
+        <!-- mod start 0.0.4 -->
+        <p class="caption">Here is a list of tasks you have to accomplish.
+				<p><b>Legend:</b> <br/><br/>
+						<i class="material-icon-action">done</i>&nbsp;&nbsp;&nbsp;Done
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="material-icon-action">assignment</i>&nbsp;&nbsp;&nbsp;Edit
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="material-icon-action">delete</i>&nbsp;&nbsp;&nbsp;Delete
+            			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       			</p>
+      <!-- mod start 0.0.2 -->
+      <div class="table_wrapper table_even">
+		  <table class="unfinished_tasks" id="tasks"> <!-- mod start 0.0.2 -->
+          <thead>
+            <tr>
+                <th data-field="status"><center>Task Name</center></th>
+                <th data-field="name"><center>Phase</center></th>
+                <th data-field="time_allotment"><center>Estimated Time Allotment</center></th>
+                <th data-field="start_date"><center>Start Date</center></th>
+                <th data-field="due_date"><center>Due Date</center></th>
+				<th data-field="action"><center>Action</center></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        </div>
+
+        <br>
+
+
+        <h2 class="header" style="color: green;"><img src="images/view.jpg" width="5%">&nbsp;&nbsp;Completed Tasks</h2>
+        <p class="caption">Here is a list of tasks you have accomplished.
+
+          <table class="finished_tasks table_wrapper table_even" id="finished_tasks">
+          <thead>
+            <tr>
+                <th data-field="status"><center>Task Name</center></th>
+                <th data-field="name"><center>Phase</center></th>
+                <th data-field="time_allotment"><center>Time Alloted</center></th>
+                <th data-field="start_date"><center>Start Date</center></th>
+                <th data-field="due_date"><center>Date of Completion</center></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          </table>
+           
+  </div>
+</div>

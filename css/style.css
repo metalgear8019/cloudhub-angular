@@ -1,0 +1,42 @@
+/**
+* Partial UI done. With homepage, view tasks page,
+* Add task page and search task page.
+* @author Janna Tapitha S. Pedrano
+* @version 0.01
+* @as of July 7, 2015 1:45AM
+* @version 0.02 Addition - added codes for UI development by Nelson F. Ruiz Jr.
+* @as of August 28, 2015 3:44AM
+*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.header_name {
+  color: #2AB5A7;
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v7/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.finished_tasks  {
+    font-weight: 300;
+}
+
+/**Mod 0.2 Start**/
+.tasklist td {
+	padding: 0px;
+}
+
+.my-offset-s4 {
+	margin-right: 33.3333%;
+}
+
+/**Mod 0.2 End**/

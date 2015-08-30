@@ -1,0 +1,325 @@
+  /******** REVISION HISTORY *******
+   0.0.1 - [08/09/2015] - David Ramirez - Added a code to fit for the font of materialize framework
+
+
+
+   ******** REVISION HISTORY *******/
+
+  /*********** 0.0.1 start mod ***********/
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+  /*********** 0.0.1 end mod ***********/
+
+.wrapper {
+	width: 100%;
+	height: 500px;
+	padding: 50px 0 50px 0;
+}
+
+.wrapper_header {
+	height: 200px;
+	padding: 200px 0 200px 0;
+}
+
+.wrapper_footer {
+	height: 100px;
+	padding: 50px 0 50px 0;
+}
+
+.wrapper_even {
+	background-color : #8dcb89;
+}
+
+.wrapper_odd {
+	background-color : #8dcb89;
+}
+
+.wrapper_action {
+	background-color : #0078cc;
+}
+
+.wrapper_danger {
+	background-color : #db4f4a;
+}
+
+/*
+ *	PANELS
+ */
+ 
+.panel_default {
+	height: 90%;
+	margin: 0 50px 0 50px;
+}
+
+.panel_footer {
+	height: 10%;
+	margin: 0 50px 0 50px;
+}
+
+#panel_wrapper_0 {
+	text-align: center;
+}
+
+#panel_wrapper_1 {
+}
+
+#panel_wrapper_2 {
+}
+
+#panel_wrapper_3 {
+	text-align: center;
+}
+
+#panel_wrapper_4 {
+	text-align: center;
+}
+
+
+/*
+ *	LABELS
+ */
+ 
+ .label_default {
+	padding: 1em;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12pt;
+	color: #ffffff;
+}
+
+.label_even {
+	background: #8dcb89;
+}
+
+.label_odd {
+	background: #242424;
+}
+
+.label_action {
+	background: #0078cc;
+}
+
+.label_danger {
+	background: #db4f4a;
+}
+ 
+/*
+ *	BUTTONS
+ */
+ 
+.button_default {
+	padding: 1em;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12pt;
+	color: #ffffff;
+}
+
+.button_even {
+	background: #8dcb89;
+}
+
+.button_odd {
+	background: #242424;
+}
+
+.button_even:hover {
+	background: #242424;
+}
+
+.button_odd:hover {
+	background: #8dcb89;
+}
+
+.button_action {
+	background: #0078cc;
+}
+
+.button_danger {
+	background: #db4f4a;
+}
+
+/*
+ *	TABLES
+ */
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	padding: 10px 10px;
+}
+
+td {
+	text-align: left;
+	padding: 10px 10px;
+}
+
+.table_even th {
+	background: #ffffff;
+}
+
+.table_even td {
+	border-bottom: 2px solid #ffffff;
+}
+
+.table_odd th {
+	background: #8dcb89;
+}
+
+.table_odd td {
+	border-bottom: 2px solid #8dcb89;
+}
+
+/*
+ *	TEXTS, TEXTAREAS
+ */
+ 
+.text_wrapper {
+	padding: 10px;
+}
+
+.text_default {
+	font-family: verdana, sans-serif;
+	font-size: 12pt;
+	width: 500px;
+	height: 50px;
+}
+
+.textarea_default {
+	font-family: verdana, sans-serif;
+	font-size: 12pt;
+	width: 500px;
+	height: 100px;
+}
+
+.text_error {
+	border: 4px solid #db4f4a;
+}
+
+.textarea_error {
+	border: 4px solid #db4f4a;
+}
+	
